@@ -1,0 +1,15 @@
+{
+	"version": 10,
+	"cmakeMinimumRequired": { "major": 4, "minor": 2, "patch": 1 },
+	"configurePresets":
+	[{
+		"name": "default",
+		"generator": "Ninja"
+	},
+	{
+		"inherits": "default",
+		"name": "debug",
+		"displayName": "Debug",
+		"binaryDir": "${sourceDir}/cmake-build-debug"
+	}]
+}
